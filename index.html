@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Web Design | Responsive Portfolio</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Umera</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section class="section" id="home">
+      <div class="section__container">
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">I'm <span>Umera<br />a</span> Web Developer</h1>
+          <p class="description">
+            Welcome to my portfolio! I'm a creative and passionate web developer who thrives on turning ideas into beautifully crafted websites and web applications. With a focus on clean code, responsive design, and user-friendly experiences, I enjoy building digital solutions that not only meet the needs of users but also elevate the brand.
+            <br>
+            Let’s create something amazing together!
+          </p>
+          <div class="action__btns">
+            <button class="hire__me">Hire Me</button>
+            <button class="portfolio"><a href="./Front End Developer Resume (5).pdf" download="Umera_resume.pdf">Resume</a></button>
+          </div>
+        </div>
+        <div class="image">
+          <img src="./profile-img.jpeg" alt="profile" />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="container text-center">
+        <h2>About Me</h2>
+        <p>"As a frontend developer, I specialize in creating visually appealing and
+           user-friendly interfaces using HTML, CSS, and JavaScript. 
+          My passion lies in turning complex design concepts into interactive and
+           responsive web experiences."</p>
+        <div class="row">
+          <div class="col-lg-4">
+            <h3>Skills</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Internship</h3>
+            <p>Excelr Technologies Full Stack Development</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Education</h3>
+            <p>Bachelor's in Computer Science and Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container text-center">
+        <h2>My Projects</h2>
+        <div class="row">
+          <!-- Project 1 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <img src="./food.jpeg" class="card-img-top img-fluid" alt="Project 1" >
+              <div class="card-body">
+                <h5 class="card-title">Online Food Ordering using HTML, CSS</h5>
+                <p class="card-text">
+                  Built an online food ordering system using HTML and CSS to create a responsive, user-friendly interface. The project enhanced skills in frontend development, focusing on layout design and usability, resulting in a seamless ordering experience.
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 2 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+            <img src="./gaming.jpeg" class="card-img-top img-fluid" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Gaming Website Design</h5>
+                <p class="card-text">
+                  Created a high-performance, visually striking gaming website using HTML5, CSS3, JavaScript for 
+                  interactive design, with responsive capabilities powered by Bootstrap. The outcome was a seamless,
+                  visually immersive platform optimized for performance and engagement.
+                </p>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Project 3 -->
+          <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card h-100">
+              <img src="./lungs.jpeg" class="card-img-top img-fluid" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Lung Cancer Detection using Python</h5>
+                <p class="card-text">
+                  Used machine learning algorithms, such as CNN, to analyze medical images for early diagnosis.
+                   This project enhanced detection accuracy, leading to more effective and timely cancer treatment.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact Section -->
+    <section id="contact">
+      <div class="container text-center">
+        <h2>Contact Me</h2>
+        <p>You can reach me via the following platforms:</p>
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Your Name">
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Your Email">
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
